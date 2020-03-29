@@ -1,0 +1,48 @@
+
+# Created by https://www.gitignore.io/api/haskell,cabal,git,stack
+# Edit at https://www.gitignore.io/?templates=haskell,cabal,git,stack
+
+#!! ERROR: cabal is undefined. Use list command to see defined gitignore types !!#
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+### Haskell ###
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+
+#!! ERROR: stack is undefined. Use list command to see defined gitignore types !!#
+
+# End of https://www.gitignore.io/api/haskell,cabal,git,stack
