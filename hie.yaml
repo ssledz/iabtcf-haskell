@@ -1,0 +1,21 @@
+cradle:
+  cabal:
+    - path: "./app/Main.hs"
+      component: "exe:iabtcf-haskell"
+    - path: "./src/"
+      component: "lib:iabtcf-haskell"
+    - path: "./"
+      component: "lib:iabtcf-haskell" 
+
+# cradle:
+#   multi:
+#     - path: "./app/Main.hs"
+#       config:
+#         cradle:
+#           cabal:
+#             component: "exe:iabtcf-haskell"
+#     - path: "./src"
+#       config:
+#         cradle:
+#           cabal:
+#             component: "lib:iabtcf-haskell"

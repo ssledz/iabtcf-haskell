@@ -9,4 +9,5 @@ main = do
     let helloHaskell = "Hello, Haskell !"
     let str = C.pack helloHaskell
     let strEnc = show $ Base64.encode str
+    putStrLn "Hello"
     putStrLn $ "base64.encoded(" ++ helloHaskell ++ ") = " ++ strEnc
